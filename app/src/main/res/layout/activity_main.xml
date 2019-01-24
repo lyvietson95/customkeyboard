@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/groupContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="Just text"
+            android:id="@+id/edittext0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:inputType="text" />
+
+        <EditText
+            android:hint="Just number from 0 - 9"
+            android:id="@+id/edittext1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edittext0"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <vn.ifactory.createkeyboardinapp.MyKeyboardView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:keyBackground="@color/colorGrey400"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+</RelativeLayout>
+
+
