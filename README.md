@@ -6,3 +6,4 @@ See image following when build and register Edittext for type number:
  <br />
  Change background key when user onTouch:
  ![alt text](https://raw.githubusercontent.com/lyvietson95/customkeyboard/master/keyboard_screen_focus_change_color.png)
+ 
